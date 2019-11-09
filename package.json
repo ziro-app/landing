@@ -24,5 +24,8 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
