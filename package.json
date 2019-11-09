@@ -1,0 +1,28 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziro-app/landing.git"
+  },
+  "keywords": [],
+  "author": "Vitor Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziro-app/landing/issues"
+  },
+  "homepage": "https://github.com/ziro-app/landing#readme",
+  "dependencies": {
+    "@bit/vitorbarbosa19.ziro.landing": "0.0.1",
+    "parcel": "^1.12.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "webfontloader": "^1.6.28"
+  }
+}
