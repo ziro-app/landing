@@ -20,6 +20,10 @@ module.exports = (env, { mode }) => {
 				{
 					test: /\.css$/,
 					use: ['style-loader', 'raw-loader']
+				},
+				{
+					test: /\.png$/,
+					use: 'file-loader'
 				}
 			]
 		},
