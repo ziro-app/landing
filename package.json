@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "webpack-dev-server --mode=development --open",
+    "build": "webpack --mode=production -p"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,25 @@
   },
   "homepage": "https://github.com/ziro-app/landing#readme",
   "dependencies": {
+    "@babel/runtime": "^7.7.2",
     "@bit/vitorbarbosa19.ziro.landing": "0.0.1",
-    "parcel": "^1.12.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "compression-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^3.1.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
